@@ -234,7 +234,7 @@ section,
 /* Hero section with background image */
 .hero {
   position: relative;
-  background: url('/src/assets/blog/rummy-crystal-banner2.jpg') no-repeat center center / cover;
+  background: url('assets/rummy-crystal-banner2.jpg') no-repeat center center / cover;
   color: #fff;
   text-align: center;
   display: flex;
