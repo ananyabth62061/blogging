@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DD Game App</title>
-    <link rel="icon" href="src\assets\blog\dd-game-logo.png" type="image/x-icon">
+    
+    <title>Play & Win Real Money | DD Game App</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Play & Win Real Money | DD Game App">
+    <meta name="description" content="Download DD Game App from ddgamesapps.co.in and win real cash by playing Ludo, Rummy, Poker & more. Get a ₹100 welcome bonus. Join now!">
+    <meta name="keywords" content="DD Game, real money games, ludo app, rummy app, poker app, win cash games, gaming app India">
+    <meta name="author" content="DD Game Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ddgamesapps.co.in/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ddgamesapps.co.in/">
+    <meta property="og:title" content="Play & Win Real Money | DD Game App">
+    <meta property="og:description" content="Play Ludo, Poker & more. Win cash instantly. Trusted by thousands of players in India. Get ₹100 bonus on sign-up!">
+    <meta property="og:image" content="https://ddgamesapps.co.in/src/assets/blog/dd-game-logo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ddgamesapps.co.in/">
+    <meta name="twitter:title" content="Play & Win Real Money | DD Game App">
+    <meta name="twitter:description" content="Win real cash by playing your favorite games on DD Game. Instant withdrawals. Safe & secure.">
+    <meta name="twitter:image" content="https://ddgamesapps.co.in/src/assets/blog/dd-game-logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/src/assets/blog/dd-game-logo.png" type="image/png">
+
+    <!-- Styles & Scripts -->
     <link rel="stylesheet" href="/style.css">
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
@@ -38,7 +65,23 @@
       
 <div class="section container blog-section">
   <h1 class="section-title">Recent articles</h1>
-  <ul role="list" class="articles__list flow"></ul>
+  <br>
+  <br>
+  <ul role="list" class="articles__list flow"> <li>
+        <article class="snippet">
+          
+          <img src="/assets/blog/article-3.jpg" alt="This is a test" class="snippet__image">
+            <h3 class="snippet__title"><a href="/blog/2021-05-28-my-third-article/">My Third Article
+            </h3></a>
+            <p class="snippet__meta">by
+              <span>Kevin Powell</span>
+              on
+              <span>Fri May 28 2021 05:30:00 GMT+0530 (India Standard Time)</span>
+            </p>
+            <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
+            <a href="/blog/2021-05-28-my-third-article/" class="btn btn--primary">Continue Reading</a>
+          </article>
+        </li></ul>
 </div>
 
     </main>
@@ -47,16 +90,18 @@
  
   <p>© 2020 DD Game Apps. All rights reserved.</p>
 </footer>
+
+    <!-- Netlify Identity Script Fix -->
     <script>
       if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user if(!user) {
-            window.netlifyIdentity.on("login", () => document.location.href = "/admin/";
-            }
-          );
-        }
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
       }
-    );
-  }
-    
-  </script>
-</body></html>
+    </script>
+  </body>
+</html>
