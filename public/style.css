@@ -234,27 +234,27 @@ section,
 /* Hero section with background image */
 .hero {
   position: relative;
+  background: url('/src/assets/blog/rummy-crystal-banner2.jpg') no-repeat center center / cover;
   color: #fff;
   text-align: center;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; /* Align content to the bottom */
   justify-content: center;
-  padding: 60px 20px 40px;
+  min-height: 100vh;
+  padding: 60px 20px 40px; /* Extra top padding for spacing */
   box-sizing: border-box;
   overflow: hidden;
 }
 
 .hero-content {
-
   position: relative;
   z-index: 2;
   max-width: 900px;
   width: 100%;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4); /* Optional: adds readability */
   border-radius: 16px;
-  backdrop-filter: blur(4px);
-  /* Optional: subtle blur effect */
+  backdrop-filter: blur(4px); /* Optional: subtle blur effect */
 }
 
 .hero h1 {
@@ -269,7 +269,7 @@ section,
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.cta-button {
+.hero .cta-button {
   display: inline-block;
   background: linear-gradient(135deg, #ffd700, #ff9f1a);
   color: #1a1a1a;
@@ -299,10 +299,7 @@ section,
 .hero .cta-button::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   border-radius: 10px;
   box-shadow: 0 0 15px 5px rgba(255, 223, 0, 0.4);
   opacity: 0;
@@ -310,39 +307,21 @@ section,
 }
 
 @keyframes bounce {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-4px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
 }
 
 @keyframes pulse-glow {
-  0% {
-    opacity: 0.4;
-    transform: scale(1);
-  }
-
-  50% {
-    opacity: 0.1;
-    transform: scale(1.1);
-  }
-
-  100% {
-    opacity: 0.4;
-    transform: scale(1);
-  }
+  0% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.1; transform: scale(1.1); }
+  100% { opacity: 0.4; transform: scale(1); }
 }
 
 /* Responsive hero section */
 @media screen and (max-width: 768px) {
   .hero {
     padding: 30px 15px;
-    min-height: 0vh;
+    min-height: 90vh;
   }
 
   .hero h1 {
@@ -362,7 +341,7 @@ section,
 @media screen and (max-width: 480px) {
   .hero {
     padding: 20px 10px;
-    min-height: 0vh;
+    min-height: 80vh;
   }
 
   .hero h1 {
