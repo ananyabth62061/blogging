@@ -192,12 +192,12 @@ section,
       align-items: center;
     }
     
-    .logo,
+    /* .logo,
     .site-logo {
       height: 40px;
       width: auto;
       margin-right: 10px;
-    }
+    } */
     
     .site-name {
       font-size: 1rem;
