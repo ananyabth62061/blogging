@@ -1,0 +1,26 @@
+{
+    "name": "DD Game - Play & Win Real Money",
+    "short_name": "DD Game",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ff4d00",
+    "orientation": "portrait",
+    "lang": "en-IN",
+    "scope": "/",
+    "description": "Play Ludo, Rummy, Poker and more. Win real cash on DD Game. 100% legal & secure gaming in India.",
+    "icons": [
+      {
+        "src": "/assets/blog/dd-game-logo.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/blog/dd-game-logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
