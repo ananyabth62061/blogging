@@ -1,13 +1,5 @@
-# robots.txt for https://ddgamesapps.in/
 
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /404/
-Disallow: /500/
-Disallow: /under-construction/
 Allow: /
 
-# Sitemap reference
 Sitemap: https://ddgamesapps.in/sitemap.xml
-# End of robots.txt
