@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets/blog/*");
+   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("sitemap.xml");
 
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
